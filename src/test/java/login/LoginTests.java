@@ -20,7 +20,6 @@ public class LoginTests extends BaseTests {
         loginPage.clickOnLoginButton();
         String popup=loginPage.getAlertTextandAccept();
         assertTrue(popup.contains("User or Password is not valid"));
-        //assertTrue(loginPage.getTitle().contains("Bank Home Page"));
 
     }
     @Test(priority=2)
@@ -30,7 +29,6 @@ public class LoginTests extends BaseTests {
         loginPage.clickOnLoginButton();
         String popup=loginPage.getAlertTextandAccept();
         assertTrue(popup.contains("User or Password is not valid"));
-       // assertTrue(loginPage.getTitle().contains("Bank Home Page"));
 
     }
     @Test(priority=3)
@@ -40,7 +38,6 @@ public class LoginTests extends BaseTests {
         loginPage.clickOnLoginButton();
         String popup=loginPage.getAlertTextandAccept();
         assertTrue(popup.contains("User or Password is not valid"));
-        //assertTrue(loginPage.getTitle().contains("Bank Home Page"));
     }
     @Test(priority=4)
     public void ValidUsernameAndValidPassword(){
